@@ -1,5 +1,61 @@
-target/
-/.idea
-*.xml
-.idea/misc.xml
+# Các file hệ điều hành
+.DS_Store
+Thumbs.db
 
+# Các thư mục build
+/out/
+/target/
+bin/
+
+# Cấu hình môi trường IDE IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Lịch sử workspace
+*.swp
+*.swo
+
+# Các thư mục và file tạm
+*.log
+*.tmp
+*.temp
+*.cache
+*.class
+
+# File lock của IntelliJ IDEA
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries/
+.idea/vcs.xml
+
+# Cấu hình Gradle
+.gradle/
+build/
+
+# Cấu hình Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Cấu hình log hoặc lưu trữ
+logs/
+*.log
+
+# Các tệp nhật ký test kết quả
+test-results/
+
+# Các tệp do Maven và Gradle tạo ra
+*.jar
+*.war
+*.ear
+
+# Đối với MacOS
+.AppleDouble
+.LSOverride
